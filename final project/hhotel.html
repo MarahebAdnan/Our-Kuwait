@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Our Kuwait</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
+  <style>
+    
+
+[id="heart"] {
+  position: absolute;
+  left: -100vw;
+}
+
+[for="heart"] {
+  color: #aab8c2;
+  cursor: pointer;
+  font-size: 6em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="heart"]:hover {
+  color: grey;
+}
+
+[for="heart"]::selection {
+  color: none;
+  background: transparent;
+}
+
+[for="heart"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="heart"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+  animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+}
+
+
+
+@keyframes heart {0%, 17.5% {font-size: 0;}}
+
+  </style>
+</head>
+<body>
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Hilton Garden Inn Kuwait </span>
+    </div>
+  </div>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="about.html" >About us</a>
+    <div class="dropdown">
+      <button class="dropbtn">Contact us 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="taxi.html">Taxi hotline</a>
+        <a href="guiad.html">Tourist guide</a>
+       
+ </div>
+    </div> 
+    <a href="opinion.html">Suggestion may help you</a>
+    <a href="empassy.html"> Embassies number </a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <!-- .-.---.-.-..-.-.-.-..-.--. -->
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+      </span>
+    </div>
+  </div>
+<!-- .-.---.-.-..-.-.-.-..-.--. -->
+    <section class="section section-dark">
+        <div class="card">
+            <img src="./hotels/6.jpg" alt="Avatar" style="width:100%">
+            <div class="container1">
+              <h4><b>Hilton Garden Inn Kuwait</b></h4> 
+              <p>
+    You can find the hotel  at The Avenues, the largest shopping mall in Kuwait.The hotel 15 minutes from the airport, and The hotel location along Fifth Ring Road makes for easy trips into Kuwait City—reach the Kuwait Towers and Grand Mosque in 20 minutes.
+              </p>
+               <br> <br>
+          <input id="heart" type="checkbox" />
+          <label for="heart"  class="ok">❤</label>
+            </div>    
+          </div>
+
+
+	<div class="myDiv">
+
+
+		<h1>Add a comment!</h1>
+		<i class="fa fa-comments-o fa-5x"></i>
+		
+		<br>
+
+		<div class="form-group">
+			<label for="name">name:</label>
+			<input class="form-control" rows="1" id="userName" type="text" placeholder="what's your name?">
+			<br>
+
+			<!-- <label for="comment">comment:</label> -->
+
+			<textarea class="form-control" rows="2" id="feedbackHere" placeholder="write here your comment"></textarea>
+			<br>
+			<input class="btn btn-default" type="submit" onclick="submitFeedback()" value="submit">
+			</button>
+		
+
+			</form><br>
+			<!-- <i class="fa fa-bolt fa-4x"></i>
+			<hr class="soften"> -->
+
+			<!--comment displays in ul-->
+			<ul id="listAll">
+			</ul>
+
+
+		</div>    </section>
+<!-- .-.---.-.-..-.-.-.-..-.--. -->
+    <div class="pimg3">
+      <div class="ptext">
+        <span class="border trans">
+        
+        </span>
+      </div>
+    </div>
+
+
+
+
+<!-- -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.         -->
+        <footer class="site-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  <h6>About Kuwait</h6>
+                  <p class="text-justify">
+                    Kuwait‎  officially the State of Kuwait, Kuwait is a country in Western Asia. Situated in the northern edge of Eastern Arabia at the tip of the Persian Gulf            </p>
+                </div>
+      
+                <div class="col-xs-6 col-md-3">
+                  <h6>Quick Links</h6>
+                  <ul class="footer-links">
+                </a></li> <li><a href="taxi.html">Taxi hotline</a></li>
+                <li><a href="cafes.html">Resturants and cafe </a></li>
+                <li><a href="places.html"> Touristic places</a></li>
+                <li><a href="table.html"> Schedules</a></li>
+                  </ul>
+                </div>
+              </div>
+              <hr>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12"> 
+                  <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+               <a href="https://www.instagram.com/ii6ma_/" target="_blank">maraheb</a>.
+                  </p>
+                </div>
+      
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <ul class="social-icons">
+                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>     
+                  </ul>
+                </div>
+              </div>
+            </div>
+      </footer>
+    <!-- </section> -->
+
+
+</body>
+</html>
